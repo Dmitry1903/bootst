@@ -1,0 +1,52 @@
+ 
+header {
+    
+    width: 100%;
+    min-height: 40px;
+    background: #000000;
+    margin-top: 0;
+}
+
+header div {
+    width: 60%;
+    margin: 0 auto;
+}
+@media screen and (min-width:0) and (max-width:567px){
+  header div {
+        width: 100%;
+        overflow: hidden;
+    } 
+}
+li {
+    float: left;
+    margin-right: 15px;
+    list-style-type: none;
+}
+main {
+    background: grey;
+}
+a {
+    text-decoration: none;
+}
+.blueb {
+    background: #0093ff;
+    color: white;
+}
+img {
+    margin-top: 20px;
+}
+.roundgrey {
+    width: 140px;
+    height: 140px;
+    background: grey;
+    border-radius: 70px;
+    text-align: center;
+    color: #575757;
+}
+.roundgrey>div {
+    margin: 70 auto;
+}
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
